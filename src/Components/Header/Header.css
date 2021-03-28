@@ -1,0 +1,43 @@
+h1{
+    display: grid;
+    text-align:center;
+    align-items: center;
+}
+
+.title{
+    display: grid;
+    text-align:center;
+    align-items: center;
+    font-size: 24px;
+    padding: 10px 5px;
+    color: red;
+}
+
+.header{
+    background-color: darkblue;
+    border-radius: 10px;
+    margin: 0 10px;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    left: 0;
+    display:grid;
+}
+
+@media (min-width: 768px){
+    .header{
+        width:50%;
+        margin-left: 25%;
+        display:grid;
+        align-items: center;
+        background-color: red;
+    }
+    .title{
+        display: grid;
+        text-align:center;
+        align-items: center;
+        font-size: 24px;
+        padding: 10px 5px;
+        color: white;
+    }
+}

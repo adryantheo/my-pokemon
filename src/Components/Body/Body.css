@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    overflow-y: scroll;
+    justify-items: center;
+    align-items: center;
+    position: static;
+    margin: 75px;
+    max-width: 90%;
+    background-color: yellow;
+}

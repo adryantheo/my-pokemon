@@ -1,10 +1,15 @@
 import React from 'react'
 import './Root.css'
+import Header from './Header/Header';
+import Body from './Body/Body';
+import Navigation from './Navigation/Navigation';
 
 export default function Root() {
     return (
-        <div className="header">
-            <h1 className="title">Pokemon World</h1>
+        <div>
+            <Header />
+            <Body />
+            <Navigation />
         </div>
     )
 }
