@@ -4,7 +4,9 @@ import './Body.css';
 export default function Body() {
     return (
         <div className="body">
-            hello world
+            <div className="content">
+                hello world
+            </div>
         </div>
     )
 }

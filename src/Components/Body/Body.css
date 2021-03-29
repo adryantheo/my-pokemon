@@ -1,4 +1,4 @@
-body{
+/* body{
     display: grid;
     overflow-y: scroll;
     justify-items: center;
@@ -6,5 +6,31 @@ body{
     position: static;
     margin: 75px;
     max-width: 90%;
-    background-color: yellow;
+    background-color: white;
+} */
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin: 30% 10%;
+    height: 50%;
+    border: 1px solid;
+}
+
+@media (min-width: 768px){
+    .content{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        margin: 15% 10%;
+        height: 50%;
+        border: 1px solid;
+    }
 }

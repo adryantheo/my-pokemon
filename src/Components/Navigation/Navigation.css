@@ -6,8 +6,72 @@
   left: 0;
   height:10%;
   text-align:center;
-  display:grid;
   align-items:center;
-  border-radius:10px;
-  padding-bottom: 0;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
 }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  /* border: 0.5px solid; */
+  /* border-color: white; */
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+
+p{
+  font-size:12px;
+}
+
+p:hover{
+  color: white;
+}
+
+img{
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
+@media (min-width: 768px){
+  .navigation{
+    position:fixed;
+    width: 100%;
+    background-color:red;
+    bottom:0;
+    left: 0;
+    height:8%;
+    text-align:center;
+    align-items:center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+  }
+
+  p{
+    font-size:14px;
+  }
+  
+  p:hover{
+    color: white;
+  }
+
+  img{
+    width: 40px;
+    height: 40px;
+    padding: 0
+  }
+}
+
+
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} */

@@ -18,10 +18,11 @@ h1{
     border-radius: 10px;
     margin: 0 10px;
     position: fixed;
-    width: 95%;
     top: 0;
     left: 0;
+    right: 0;
     display:grid;
+    height:10%;
 }
 
 @media (min-width: 768px){
